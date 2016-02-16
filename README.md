@@ -4,7 +4,15 @@ The XS2OWL framework aims to support semantic interoperability between the Seman
 ## Technical details
 It has been implemented as an XSLT stylesheet which takes as input the XML Schema file (.xsd) that will be transformed to OWL.
 
-### The XS2OWL transformation generates two ontologies:
+### How to use it
+
+#### Command line
+
+You can apply the XSLT file on an XSD using the open-source Saxon-HE from [saxonica](http://www.saxonica.com/products/products.xml).
+    $ java -jar saxon9he.jar -s:example.xsd -xsl:XS2OWL/xs2owl2.0.10.xsl
+
+
+### The XS2OWL transformation generates two ontologies
 * A main ontology that represents the XML Schema constructs using OWL constructs.
 * A mapping ontology that associates the names of the XML Schema constructs with the IDs of the equivalent main ontology constructs and captures any information present in the XML Schema that cannot be captured in the main ontology due to the expressivity limitations of the OWL 2.0 syntax.
 
@@ -16,5 +24,7 @@ It has been implemented as an XSLT stylesheet which takes as input the XML Schem
 
 ## Citation
 *The SPARQL2XQuery interoperability framework*
+
 N. Bikakis, C. Tsinaraki, I. Stavrakantonakis, N. Gioldasis, S. Christodoulakis
+
 World Wide Web 18 (2), 403-490

@@ -2,9 +2,9 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xdt="http://www.w3.org/2005/xpath-datatypes" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl" xmlns:self="xs2owl2.0.10.xsl">
 	<!-- Lab. Of Distributed Multimedia Information Systems And Applications (MUSIC)
 	     Technical University of Crete (TUC) 
-		 Researchers: Dr.Chrisa Tsinaraki, Ioannis Stavrakantonakis
+		 Researchers: Chrisa Tsinaraki, Ioannis Stavrakantonakis
 		 Version:2.0.10
-		 License: Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) http://creativecommons.org/licenses/by-nc/3.0/
+		 License: MIT License
 	-->
 	<xsl:output media-type="text/xml" version="1.0" encoding="UTF-8" indent="yes" use-character-maps="owl"/>
 	<xsl:strip-space elements="*"/>
