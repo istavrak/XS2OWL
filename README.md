@@ -6,10 +6,10 @@ It has been implemented as an XSLT stylesheet which takes as input the XML Schem
 
 ### How to use it
 
-#### Command line
-
-You can apply the XSLT file on an XSD using the open-source Saxon-HE from [saxonica](http://www.saxonica.com/products/products.xml).
-    $ java -jar saxon9he.jar -s:example.xsd -xsl:XS2OWL/xs2owl2.0.10.xsl
+You can apply the XSLT file on an XSD using the open-source Saxon-HE from [saxonica](http://www.saxonica.com/products/products.xml) from command line:
+```$ java -jar saxon9he.jar -s:example.xsd -xsl:XS2OWL/xs2owl2.0.10.xsl
+```
+It will produce 2 files, i.e. main.owl and owl2xml.owl.
 
 
 ### The XS2OWL transformation generates two ontologies
@@ -23,8 +23,5 @@ You can apply the XSLT file on an XSD using the open-source Saxon-HE from [saxon
 * Includes an XPath Evaluator, which is able to evaluate an XPath expression over the XML Schema, since the XPath expressions do not refer to the node hierarchy of the XML Schema but in the node structure of the XML data following it.
 
 ## Citation
-*The SPARQL2XQuery interoperability framework*
-
-N. Bikakis, C. Tsinaraki, I. Stavrakantonakis, N. Gioldasis, S. Christodoulakis
-
-World Wide Web 18 (2), 403-490
+*The SPARQL2XQuery interoperability framework*:
+N. Bikakis, C. Tsinaraki, I. Stavrakantonakis, N. Gioldasis, S. Christodoulakis. World Wide Web 18 (2), 403-490.
