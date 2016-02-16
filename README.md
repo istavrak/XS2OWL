@@ -7,7 +7,9 @@ It has been implemented as an XSLT stylesheet which takes as input the XML Schem
 ### How to use it
 
 You can apply the XSLT file on an XSD using the open-source Saxon-HE from [saxonica](http://www.saxonica.com/products/products.xml) from command line:
-```$ java -jar saxon9he.jar -s:example.xsd -xsl:XS2OWL/xs2owl2.0.10.xsl
+
+``` 
+$ java -jar saxon9he.jar -s:example.xsd -xsl:XS2OWL/xs2owl2.0.10.xsl
 ```
 It will produce 2 files, i.e. main.owl and owl2xml.owl.
 
