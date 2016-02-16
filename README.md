@@ -27,3 +27,9 @@ It will produce 2 files, i.e. main.owl and owl2xml.owl.
 ## Citation
 *The SPARQL2XQuery interoperability framework*:
 N. Bikakis, C. Tsinaraki, I. Stavrakantonakis, N. Gioldasis, S. Christodoulakis. World Wide Web 18 (2), 403-490.
+
+## Credits
+
+Developed by:
+* Chrisa Tsinaraki
+* Ioannis Stavrakantonakis
